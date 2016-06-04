@@ -1,0 +1,42 @@
+```
+
+
+.button {
+  display: inline-block;
+  border: 2px solid #6ab47b;
+  padding: 5px 5px;
+  background-color: #6ab47b;
+  color: #eee;
+}
+
+.button:hover {
+  color: #eee222;
+}
+
+.button:active {
+  color: rgba(153, 204, 255, 0.8)
+}
+
+.button-sm {
+  height: 30px;
+  width: 60px;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.button-md {
+  height: 50px;
+  width: 75px;
+}
+
+.button-lg {
+  height: 80px;
+  width: 100px;
+  font-style: oblique;
+  text-transform: uppercase;
+}
+
+
+
+
+```
