@@ -1,0 +1,35 @@
+```
+
+
+h2 {
+	text-align: center;
+	color: #ff8000;
+	margin-top: 20%;
+	margin-left: 10%;
+}
+
+form {
+	border: 1px solid green;
+	margin: 30%;
+	width: 45%;
+	font-size: 16px;
+	padding: 15px;
+	background-color: rgba(179, 179, 179, 0.5);
+	margin-top: 5%;
+}
+
+select {
+	padding-left: 10px;
+}
+
+.search {
+	margin-top: 10px;
+	margin-bottom: 0;
+	margin-left: 40%;
+}
+
+.box {
+	margin-left: 10%;
+}
+
+```
