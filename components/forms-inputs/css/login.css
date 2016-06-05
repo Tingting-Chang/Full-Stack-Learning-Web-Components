@@ -1,13 +1,15 @@
 ```
 
 
+
 * {
 	font-size: 16px;
 	color: #009933;
+	padding-bottom: 5px;
 }
 
 body {
-	width: 60%;
+	width: 70%;
 	margin-left: 25%;
 	margin-top: 20%;
 	padding: 2px;
