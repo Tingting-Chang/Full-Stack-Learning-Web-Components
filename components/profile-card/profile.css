@@ -1,0 +1,57 @@
+```
+
+* {
+  box-sizing: border-box;
+  padding: 1px 1px;
+  font-size: 16px;
+  background-color: rgba(217, 217, 217, 0.9);
+  color: #004d1b;
+}
+
+ul li {
+  list-style: none;
+}
+
+hr {
+  width: 122%;
+  text-decoration-line: none;
+}
+
+h3, h4 {
+  color: rgba(153, 77, 0, 0.9);
+}
+
+a {
+  text-decoration: blink;
+  color: rgba(255, 64, 0, 0.8);
+}
+
+header {
+  margin-left: 20%;
+}
+
+header h3 {
+  width: 10%;
+}
+
+.nav {
+  width: 40%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+section {
+  width: 40%;
+  margin-left: 20%;
+  padding-bottom: 0;
+}
+
+.about {
+  text-align: left;
+}
+
+footer {
+  margin-left: 20%;
+}
+
+```
