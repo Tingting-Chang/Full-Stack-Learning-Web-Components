@@ -1,0 +1,47 @@
+```
+
+* {
+	padding-left: 2px;
+}
+
+body {
+	width: 60%;
+	margin: 20% 0 0 20%;
+	border: 2px solid #ffa31a;
+}
+
+h3 {
+	color: #ffa31a;
+}
+
+textarea {
+	width: 60%;
+	color: #ffa31a;
+}
+
+.red {
+	color: red;
+	float: left;
+	width: 25%;
+}
+
+.green {
+	color: green;
+	float: left;
+	width: 25%;
+}
+
+.blue {
+	color: blue;
+	float: left;
+	width: 25%;
+}
+
+.alpha {
+	clear: both;
+	padding-top: 5px;
+}
+
+
+
+```
