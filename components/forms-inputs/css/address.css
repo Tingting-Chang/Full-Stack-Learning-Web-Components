@@ -1,0 +1,39 @@
+```
+
+* {
+	padding: 2px;
+	color: #4d4dff;
+
+}
+
+body {
+	margin: 10% 0 0 15%;
+	border: 1px solid #4d4dff;
+
+}
+
+h3 {
+	text-align: center;
+
+}
+.shipping {
+	float: left;
+	width: 45%;
+	margin-left: 2%;
+
+}
+
+.billing {
+	float: left;
+	width: 45%;
+	margin-left: 2%;
+
+}
+
+.agree {
+	clear: both;
+	text-align: center;
+
+}
+
+```
