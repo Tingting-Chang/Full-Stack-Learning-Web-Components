@@ -1,0 +1,23 @@
+```
+
+* {
+	padding: 4px;
+	color: #ffcc00;
+}
+
+body {
+	width: 60%;
+	margin: 10% 0 0 30%;
+	position: relative;
+}
+
+h3 {
+	text-align: center;
+}
+
+form {
+	background-color: #003399;
+	position: absolute;
+}
+
+```
