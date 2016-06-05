@@ -1,0 +1,55 @@
+```
+
+
+* {
+	font-size: 16px;
+	color: #009933;
+}
+
+body {
+	width: 60%;
+	margin-left: 25%;
+	margin-top: 20%;
+	padding: 2px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.title {
+	margin-top: -2px;
+}
+
+input {
+	background-color: #e6ffee;
+	color: #b3b3b3;
+	margin-left: 10px;
+}
+
+
+a {
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+a:hover {
+	color: #ffcc00;
+}
+
+a:active {
+	color: #4da6ff;
+}
+
+.submit {
+	background-color: #00b33c;
+	margin-left: 40%;
+}
+.submit:hover {
+	background-color: #00cc44;
+}
+.email, .password {
+	
+}
+
+```
