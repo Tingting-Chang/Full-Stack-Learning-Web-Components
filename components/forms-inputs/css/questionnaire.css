@@ -1,0 +1,20 @@
+```
+
+* {
+	padding: 1px;
+	font-size: 16px;
+	color: #804000;
+}
+
+body {
+	border: 4px double #00b33c;
+	width: 60%;
+	margin: 10% 0 0 15%;
+
+}
+
+p, h3 {
+	margin-left: 12px;
+}
+
+```
