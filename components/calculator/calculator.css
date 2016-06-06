@@ -1,0 +1,76 @@
+```
+
+* {
+	font-size: 10px;
+}
+
+body {
+	position: relative;
+	min-width: 250px;
+	margin: 20% 0 0 30%;
+}
+
+form {
+	width: 50%;
+	border: 2px solid green;
+	position: absolute;
+	background-color: rgba(255, 240, 179, 0.9);
+		margin-bottom: 15%;
+
+}
+
+.screen {
+	width: 100%;
+}
+
+#screen {
+	width: 85%;
+	padding: 0 0 10% 5%;
+	margin-left: 4.25%;
+	background-color: rgba(179, 179, 179, 0.8);
+}
+
+p {
+	float: left;
+	width: 24%;
+	margin-bottom: -1%;
+}
+
+input {
+	width: 90%;
+	background-color: rgba(217, 217, 217, 0.8);
+}
+
+input:hover {
+	background-color: #ffff33;
+}
+
+input:active {
+	background-color: #009933;
+}
+
+.button {
+	width: 95%;
+	margin-left: 5%;
+	padding-bottom: 113%;
+}
+
+section input {
+	padding: 20% 20% 20% 20%;
+	border-radius: 8%;
+
+}
+
+.clear, .delete {
+	background-color: rgba(255, 102, 102, 0.8);
+}
+
+.add, .substract, .multiply, .divid, .equal, .trans, .percent {
+	background-color: rgb(255, 153, 102);
+
+}
+
+
+
+
+```
