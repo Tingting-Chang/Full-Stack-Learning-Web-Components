@@ -7,7 +7,8 @@
 	color: #fff;
 	background: url("../img/yoga_meadow.png") no-repeat;
 	text-decoration: none;
-	box-shadow: 0;
+	box-shadow: none;
+	background-color: transparent;
 	outline: none;
 	font-size: 16px;
 	text-shadow: none;
@@ -23,6 +24,7 @@ h2 {
 
 input {
 	background-color: transparent;
+	box-shadow: none;
 	outline: none;
 	border: none;
 }
@@ -32,6 +34,7 @@ p {
 	width: 100%;
 	margin-left: 10%;
 	background-color: transparent;
+	box-shadow: none;
 	outline: none;
 	border: 1px solid white;
 
