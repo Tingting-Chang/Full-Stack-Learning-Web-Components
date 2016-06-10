@@ -1,1 +1,22 @@
+* {
+	color: #009933;
+	background-color: #e6e6e6;
+}
 
+a {
+	text-decoration: none;
+	color: #ffa64d;
+
+}
+
+a:hover {
+	color: #ff6600;
+}
+
+td {
+	padding: 0 10px 5px 5px;
+}
+
+h1 {
+	margin-bottom: 30px;
+}
