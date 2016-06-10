@@ -27,10 +27,12 @@ td {
 }
 
 h1 {
+	margin-top: 30px;
 	color: #cc6600;
 }
 
 h2 {
+	margin-top: 30px;	
 	color: #009933;
 }
 
@@ -39,5 +41,5 @@ h3 {
 }
 
 h3.quote {
-	margin: 20px 30px 80px 330px;
+	margin: 20px 100px 120px 330px;
 }
