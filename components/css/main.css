@@ -1,1 +1,43 @@
 
+
+body {
+	background: url("../img/ali.jpg") no-repeat;
+
+}
+
+a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #ffff00;
+}
+
+a:hover {
+	color: #ff6600;
+}
+
+table {
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	color: #ff5050; 
+}
+
+td {
+	padding-right: 35px;
+	padding-bottom: 5px;
+}
+
+h1 {
+	color: #cc6600;
+}
+
+h2 {
+	color: #009933;
+}
+
+h3 {
+	color: #009933;
+}
+
+h3.quote {
+	margin: 20px 30px 80px 330px;
+}
