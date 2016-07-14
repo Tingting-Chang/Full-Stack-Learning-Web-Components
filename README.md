@@ -5,7 +5,7 @@
   Project Assignment 1: Multi-Page Web Site
 
 
-  [Assignment Homepage](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/index.html)
+  [###Assignment Homepage###](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/index.html)
   
   [Project Assignment 2: Button Web Component](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/buttons/index.html) | [ Button Web Component Repository](https://github.com/Tingting-Chang/learning-web-components/blob/master/components/buttons/index.html)
 			
