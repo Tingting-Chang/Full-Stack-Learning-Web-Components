@@ -5,25 +5,32 @@
 <head>
 	<title>A Color Building Form</title>
 	<link rel="stylesheet" type="text/css" href="./css/building.css">
+	<script type="text/javascript" src="./js/validator.js"></script>
+	<script type="text/javascript" src="./js/building.js"></script>
 </head>
 <body>
-	<form>
-		<div class="color">
-		<h3>Set color values:</h3>
-		<p>
-			<div class="red">Red <input type="number" name="red" min="0" max="255" step="5"></div>
-			<div class="green">Green <input type="number" name="green" min="0" max="255" step="5"></div>
-			<div class="blue">Blue <input type="number" name="blue"  min="0" max="255" step="5"></div>
-		</p>
-		</div>
-		<div class="alpha">
-			<h3>Alpha:</h3>
-			<p><input type="number" name="alpha" class="alpha" min="0" max="1" step="0.01"></p>
-		</div>
-		<p>
-			<textarea>This is where the color will be generated.</textarea>
-		</p>	
-	</form>
+	<div id="container">
+		<form id="building">
+			<div class="color">
+			<h3>Set color values(range from 0 to 255):</h3>
+			<div id="errorBox"></div>
+			<p>
+				<div class="red">Red <input type="number" name="red" min="0" max="255" step="5"></div>
+				<div class="green">Green <input type="number" name="green" min="0" max="255" step="5"></div>
+				<div class="blue">Blue <input type="number" name="blue"  min="0" max="255" step="5"></div>
+			</p>
+			</div>
+			<div class="alpha">
+				<h3>Alpha:</h3>
+				<input type="number" name="alpha" min="0" max="1" step="0.01" id="alpha">
+			</div>
+			<p id="color_area">
+				<textarea name="color_area" placeholder="This is where the color will be generated."></textarea>
+			</p>	
+			<input type="submit" name="submit" id="submit">
+		</form>
+	</div>
+	
 	
 </body>
 </html>

@@ -5,19 +5,24 @@
 <head>
 	<title>Login Form</title>
 	<link rel="stylesheet" type="text/css" href="./css/login.css">
-
+	<script type="text/javascript" src="./js/validator.js"></script>
+	<script type="text/javascript" src="./js/login.js"></script>
 </head>
 <body>
-	<form>
-		<p class="title"><h1>Log In to join the Yoga in DC Community!</h1></p>
-		<p>
-			<input type="text" name="email" value="Email" class="email">
-			<input type="text" name="password" value="Password" class="password">
-		</p>
-		<p><a href="#">Forgot password?</a></p>
-		<p><input type="checkbox" name="agree"> I have already read the terms and I total agree to the terms
-		<p><input type="button" name="submit" value="Log In"  class="submit"></p>
-	</form>
+	<div id="container">
+		<form id="login" name="login">
+			<h1>Login to join the Yoga Community in DC!</h1>
+			<div id="errorBox"></div>
+			<p>
+				<input type="text" name="email" value="" placeholder="Email" class="email">
+				<input type="password" name="password" value="" placeholder="Password" class="password">
+			</p>
+			<p><a href="#">Forgot password?</a></p>
+			<p><input type="checkbox" name="term"> I have already read the terms and I total agree to the terms
+			<p><input type="submit" name="submit" value="Log In"  class="submit"></p>
+		</form>
+	</div>
+	
 </body>
 </html>
 

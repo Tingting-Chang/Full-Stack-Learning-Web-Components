@@ -1,15 +1,31 @@
-* {
-	padding-left: 2px;
+
+#container {
+	width: 50%;
+	background-color: rgba(250, 250, 252, .9);
+	margin: auto;
+	margin-top: 10%;
+	box-shadow: 0 0 3px #999;
+	padding: 2% 5% 4% 10%;
 }
 
-body {
-	width: 60%;
-	margin: 20% 0 0 20%;
-	border: 2px solid #ffa31a;
-}
-
-h3 {
+.color h3 {
 	color: #ffa31a;
+	padding-bottom: 4%;
+}
+
+.alpha h3 {
+	color: #ffa31a;
+	padding-top: 1%;
+	width: 30%;
+	font-size: 14px;
+}
+
+.alpha {
+	width: 40%;
+	/*border: 1px solid green;*/
+}
+
+#alpha {
 }
 
 textarea {
@@ -40,3 +56,20 @@ textarea {
 	padding-top: 5px;
 }
 
+#submit {
+	margin-left: 30%;
+	background-color: rgba(250, 99, 5, .4);
+	border: none;
+	padding: 5px;
+	color: #fff;
+	margin-top: 5%;
+	font-size: 14px;
+}
+
+#submit:hover {
+	background-color: #F76002;
+}
+
+#errorBox {
+	color: #f00;
+}

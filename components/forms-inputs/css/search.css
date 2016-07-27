@@ -1,35 +1,74 @@
-```
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
 
 
 h2 {
 	text-align: center;
 	color: #ff8000;
-	margin-top: 20%;
-	margin-left: 10%;
+	margin-top: 10%;
+	margin-left: 5%;
 }
 
-form {
-	border: 1px solid green;
-	margin: 30%;
+#container {
 	width: 45%;
 	font-size: 16px;
-	padding: 15px;
-	background-color: rgba(179, 179, 179, 0.5);
+	margin-left: 25%;
 	margin-top: 5%;
+	margin-bottom: 10%;
+	padding: 3%;
+	border: 1px solid #F0F2ED;
+	background-color:rgba(250,250,252,.9);
+	box-shadow:0 0 3px #999;
 }
 
-select {
-	padding-left: 10px;
+#search {
+	font-size: 16px;
+	width: 60%;
+	float: left;
+	padding: 3px 3px 3px 6px;
+}
+
+.styled_select select{
+	width: 25%;
+	float: right;
+	padding-left: 2%;
+	margin-right: 5%;
+	font-size: 13px;
+	line-height: 2;
+	border: 0;
+	border-radius: 0.5;
+	background-color: rgba(250, 189, 20, .7);
+	color: #FAF9F5;
+	-webkit-appearance: none;
 }
 
 .search {
-	margin-top: 10px;
-	margin-bottom: 0;
-	margin-left: 40%;
+	margin-top: 5%;
 }
 
-.box {
-	margin-left: 10%;
+#submit {
+	margin: 15% 0 0 40%;
+	font-size: 16px;
+	color: #EBB326;
+	cursor: pointer;
+	width: 20%;
 }
 
-```
+#submit:hover {
+	background-color: #FADD93;
+	color: #fff;
+	font-size: 14px;
+	border: none;
+	padding: 3px;
+}
+
+
+#errorBox {
+	color: #f00;
+}
+
+

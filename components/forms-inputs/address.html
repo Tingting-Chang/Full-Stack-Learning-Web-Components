@@ -4,49 +4,52 @@
 <head>
 	<title>A Shipping and Billing Address Form</title>
 	<link rel="stylesheet" type="text/css" href="./css/address.css">
+	<script type="text/javascript" src="./js/validator.js"></script>
+	<script type="text/javascript" src="./js/address.js"></script>
 </head>
 <body>
-	<form>
-		<section class="shipping">
-			<h3>Shipping information</h3>
-			<p class="firstname">
-				First name <input type="text" name="firstname" id="firstname">
-			</p>
-			<p class="lastname">
-				Last name <input type="text" name="lastname" id="lastname">
-			</p>
-			<p class="address">
-				Address <input type="text" name="address" id="address">
-			</p>
-			<p class="city">
-				City <input type="text" name="city" id="city">
-			</p>
-			<p>
-				Country <input type="text" name="country" id="country">
-			</p>
-		</section>
-		<section class="billing">
-			<h3>Billing information</h3>
-			<p class="firstname">
-				First name <input type="text" name="firstname" id="firstname">
-			</p>
-			<p class="lastname">
-				Last name <input type="text" name="lastname" id="lastname">
-			</p>
-			<p class="address">
-				Address <input type="text" name="address" id="address">
-			</p>
-			<p class="city">
-				City <input type="text" name="city" id="city">
-			</p>
-			<p>
-				Country <input type="text" name="country" id="country">
-			</p>
-		</section>
-		<p class="agree">
-			<input type="checkbox" name="agree" id="agree"> Shipping address match the billing information
-		</p>
-	</form>
+	<div id="container">
+		<div id="container_body">
+			<form name="address" id="address">
+					<section class="shipping">
+					<h3 id="shipping_title">Shipping information</h3>
+					<div id="errorBox1"></div>
+					<p class="name"><input type="text" name="firstName1" placeholder="First Name" id="firstName1">
+					</p>
+					<p class="name"><input type="text" name="lastName1" placeholder="Last Name" id="lastName1">
+					</p>
+					<p class="address"><input type="text" name="address1" placeholder="Address" id="address1">
+					</p>
+					<p class="city"><input type="text" name="city1" placeholder="City" id="city1">
+					</p>
+					<p><input type="text" name="country1" placeholder="Country" id="country1">
+					</p>
+				</section>
+					<section class="billing">
+					<h3 id="billing_title">Billing information</h3>
+					<div id="errorBox2"></div>
+
+					<p class="name"><input type="text" name="firstName2" placeholder="First Name" id="firstName2">
+					</p>
+					<p class="name"><input type="text" name="lastName2" placeholder="Last Name" id="lastName2">
+					</p>
+					<p class="address"><input type="text" name="address2" placeholder="Address" id="address2">
+					</p>
+					<p class="city"><input type="text" name="city2" placeholder="City" id="city2">
+					</p>
+					<p><input type="text" name="country2" placeholder="Country" id="country2">
+					</p>
+				</section>
+				<p class="term">
+					<input type="checkbox" name="term" id="term"> Shipping address match the billing information
+				</p>
+				<div>
+					<input type="submit" name="submit" id="submit">
+				</div>
+			</form>
+		</div>
+	</div>
+	
 </body>
 </html>
 

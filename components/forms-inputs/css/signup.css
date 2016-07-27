@@ -1,59 +1,112 @@
-```
 
 * {
-	box-sizing: border-box;
-	display: inline-block;
-	text-align: left;
-	color: #fff;
-	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
-	width: 50%;
-	background-color: transparent;
-	box-shadow: none;
+	font-family:Tahoma, Geneva, sans-serif;
 	background: url("../img/yoga_meadow.png") no-repeat;
-
+	color: #fff;
 }
 
-h1 {
-	margin-left: 10%;
-	font-size: 22px;
-}
-
-input {
-	background-color: transparent;
-	border: 1px solid #fff;
-	-webkit-appearance: none;
-	box-shadow: none;
-}
-
-p {
-	float: left;
-	width: 100%;
-	margin-left: 10%;
-	background-color: transparent;
-	box-shadow: none;
-	outline: none;
-}
-
-.submit {
+#container {
 	width: 25%;
+	border: 1px solid green;
+	background-color:rgba(137,209,113,.4);
+	margin-top: 30px;
+	box-shadow:0 0 3px #999;
+}
+
+#container_body {
+	padding: 20px;
+}
+
+.form_title {
+	font-size: 25px;
+	color: #ffff66;
 	text-align: center;
+	padding: 10px;
+	font-weight: normal;
+}
+
+.head_para{
+	 font-size:14px;
+	 color:#99a2a7;
+	 text-align:center;
+	 font-weight:normal;
+}
+
+
+#signup {
+	padding: 25px 0 0 15px;
+}
+
+.fullName {
+	margin-right: 10px;
+}
+
+.name {
+	width: 40%;
+	padding-left: 2px;
+	font-size: 13px;
+}
+
+#emailForm {
+	clear: both;
+	padding: 15px 0 10px 0px;
+}
+
+#email {
+	width: 82%;
+	padding-left: 2px;
+	font-size: 13px;
+}
+
+#passwordForm {
+	padding: 10px 0 10px 0px;
+}
+
+#password {
+	width: 82%;
+	padding-left: 2px;
+	font-size: 13px;	
+}
+
+#birthday_title {
+	font-size: 14px;
+	color: #8b919d;
+	font-weight:normal;
+	padding:0 0 5px 0;
+}
+
+select {
+	padding: 10px;
+	margin: 2px;
+}
+
+#birthday {
+	font-size: 12px;
+	color: #8b919d;
+	padding-top: 5px;
 }
 
 #submit {
-	background-color: #009933;
+	font-size: 14px;
+	text-align: center;
+	background-color: #66AD4E;
+	padding: 7px;
+	margin-top: 20px;
+	margin-left: 30%;
+	cursor: pointer;
 	border: none;
+	color: #fff;
 }
 
 #submit:hover {
-	background-color: #e62e00;
+	background-color: #397D23;
 }
 
-
-
-
-
-
-```
+#errorBox {
+	color: #F00;
+}

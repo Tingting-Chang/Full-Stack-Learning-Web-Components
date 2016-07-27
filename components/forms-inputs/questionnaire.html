@@ -5,21 +5,30 @@
 <head>
 	<title>A Questionnaire about the best ice cream brands</title>
 	<link rel="stylesheet" type="text/css" href="./css/questionnaire.css">
+	<script type="text/javascript" src="./js/validator.js"></script>
+	<script type="text/javascript" src="./js/questionnaire.js"></script>
 </head>
 <body>
-	<form>
-		<h3>What are your favorite ice cream brands?</h3>
-		<p><input type="radio" name=""> Cold Stone Creameries</p>
-		<p><input type="radio" name=""> Nestle</p>
-		<p><input type="radio" name=""> Baskin' Robbins</p>
-		<p><input type="radio" name=""> Haggen-Dazs</p>
-		<p><input type="radio" name=""> Ben & Jerry's</p>
-		<p><input type="radio" name=""> Other: 
-			<input type="text" name="">
-		</p>
+	<div id="container">
+		<form id="questionnaire">
+			<h3>What are your favorite ice cream brands?</h3>
+			<div id="errorBox"></div>
+			<p><input type="radio" name="radio_button" value="stone"> Cold Stone Creameries</p>
+			<p><input type="radio" name="radio_button" value="nestle"> Nestle</p>
+			<p><input type="radio" name="radio_button" value="baskin"> Baskin' Robbins</p>
+			<p><input type="radio" name="radio_button" value="haggen"> Haggen-Dazs</p>
+			<p><input type="radio" name="radio_button" value="ben"> Ben & Jerry's</p>
+			<p><input type="radio" name="radio_button" value="other"> Other: 
+				<input type="text" name="other_ice" placeholder="input other options" id="other">
+			</p>
 
-		<p> By the way, my favorite are Haggen-Dazs' strawberry and green tea flavors.</p>
+			<p> By the way, my favorite are Haggen-Dazs' strawberry and green tea flavors.</p>
+			<p>
+				<input type="submit" name="submit" id="submit" value="Submit">
+			</p>
 	</form>
+	</div>
+	
 </body>
 </html>
 

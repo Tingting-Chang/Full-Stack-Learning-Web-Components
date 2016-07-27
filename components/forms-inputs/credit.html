@@ -5,18 +5,23 @@
 <head>
 	<title>A Credit/Debit Card Form</title>
 	<link rel="stylesheet" type="text/css" href="./css/credit.css">
+	<script type="text/javascript" src="./js/validator.js"></script>
+	<script type="text/javascript" src="./js/credit.js"></script>
 </head>
 <body>
-	<form>
+	<div id="container">
+		<form id="credit" name="credit">
 		<h3>Credit card information</h3>
-		<p class="fullname">Full name: <input type="text" name="fullname"></p>
-		<p class="cardnum">16 Digit Card number: <input type="text" name="cardnum" maxlength="19"></p>
-		<p>CSV code: <input type="text" name="csv" maxlength="3"></p>
-		<p>
-			Expiration date: 
-			<select class="month">
+		<div id="errorBox"></div>
+		<p class="fullname"><input type="text" name="fullName" placeholder="Full name"></p>
+		<p class="cardnum"><input type="text" name="cardNum" maxlength="19" placeholder="16 Digit Card number"></p>
+		<p class="csv"><input type="text" name="csv" maxlength="3" placeholder="CSV code"></p>
+			<div id="exDate_title">Expiration date:</div> 
+			<div id="exDate">
+				<select class="month" name="month">
+				<option value="" selected="">Month</option>
 				<option value="Jan">Jan</option>
-				<option value="Feb" selected>Feb</option>
+				<option value="Feb">Feb</option>
 				<option value="Mar">Mar</option>
 				<option value="Apr">Apr</option>
 				<option value="May">May</option>
@@ -28,26 +33,33 @@
 				<option value="Nov">Nov</option>
 				<option value="Dec">Dec</option>
 			</select>
-			<select class="year">
-				<option value="2016" selected>2016</option>
-				<option>2017</option>
-				<option>2018</option>
-				<option>2019</option>
-				<option>2020</option>
-				<option>2021</option>
-				<option>2022</option>
-				<option>2023</option>
-				<option>2024</option>
-				<option>2025</option>
-				<option>2026</option>
-				<option>2027</option>
-				<option>2028</option>
-				<option>2029</option>
-				<option>2030</option>
-				<option>2031</option>
+			<select class="year" name="year">
+				<option value="" selected="">Year</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+				<option value="2021">2021</option>
+				<option value="2022">2022</option>
+				<option value="2023">2023</option>
+				<option value="2024">2024</option>
+				<option value="2025">2025</option>
+				<option value="2026">2026</option>
+				<option value="2027">2027</option>
+				<option value="2028">2028</option>
+				<option value="2029">2029</option>
+				<option value="2030">2030</option>
+				<option value="2031">2031</option>
 			</select>
-		</p>
+			</div>
+			
+		<div>
+			<input type="submit" name="submit" value="Submit" id="submit">
+		</div>
 	</form>
+	</div>
+	
 </body>
 </html>
 

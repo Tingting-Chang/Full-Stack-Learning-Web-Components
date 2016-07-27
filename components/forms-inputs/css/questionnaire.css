@@ -1,20 +1,44 @@
-```
+
 
 * {
-	padding: 1px;
+	padding-left: 10px;
 	font-size: 16px;
 	color: #804000;
 }
 
-body {
-	border: 4px double #00b33c;
-	width: 60%;
-	margin: 10% 0 0 15%;
-
+#container {
+	width: 55%;
+	border: 1px solid #EDA885;
+	background-color:rgba(237,187,161,.4);
+	margin-top: 8%;
+	box-shadow:0 0 3px #999;
 }
 
-p, h3 {
-	margin-left: 12px;
+h3 {
+	text-align: center;
+	font-size: 20px;
 }
 
-```
+#other {
+	font-size: 12px;
+}
+
+#submit {
+	font-size: 14px;
+	text-align: center;
+	background-color: #FA864B;
+	padding: 7px;
+	margin-top: 20px;
+	margin-left: 35%;
+	cursor: pointer;
+	border: none;
+	color: #fff;
+}
+
+#submit:hover {
+	background-color: #D96327;
+}
+
+#errorBox {
+	color: #F00;
+}

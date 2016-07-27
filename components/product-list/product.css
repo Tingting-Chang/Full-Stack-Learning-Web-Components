@@ -66,8 +66,9 @@ h1 {
 }
 
 .add {
-	position: absolute;
-	float: left;
+	/*position: absolute;*/
+	/*float: left;*/
+	left: 0;
 }
 
 .desc {

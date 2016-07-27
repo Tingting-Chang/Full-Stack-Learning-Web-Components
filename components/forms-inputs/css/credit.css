@@ -1,23 +1,66 @@
 
 
 * {
-	padding: 4px;
-	color: #ffcc00;
+	padding: 1% 4% 1% 4%;
 }
 
-body {
-	width: 60%;
+#container {
+	width: 80%;
 	margin: 10% 0 0 30%;
 	position: relative;
+	color: #ffcc00;
+
 }
 
 h3 {
 	text-align: center;
+	margin-bottom: 5px;
 }
 
 form {
-	background-color: #003399;
+	width: 30%;
+	background-color: #2F57B5;
 	position: absolute;
 }
 
+select {
+	margin-right: 8%;
+}
 
+input {
+	width: 80%;
+}
+
+#exDate_title {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#exDate {
+	padding-left: 4%;
+}
+
+.csv {
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+
+#submit {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	background-color: #6C84BD;
+	width: 60px;
+	padding: 5px;
+	margin: 8% 0 1% 30%;
+	border: none;
+	cursor: pointer;
+}
+
+#submit:hover {
+	color: #ffcc00;
+}
+
+#errorBox {
+	color: #f00;
+}
