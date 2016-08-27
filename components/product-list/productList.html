@@ -1,202 +1,137 @@
-
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<title>Today's Deals</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="product.css">
+	<link rel="stylesheet" type="text/css" href="./css/productList.css">
+	<script type="text/javascript" src="./js/productList.js"></script>
 </head>
 <body>
-	<p>
-		<h1>Today's Deals</h1> <br>
-		<p class="title">Every day. Shop our Deal of the Day, Lightning Deals and more daily deals and limited-time sales. See deals you're Watching <a href="#">here</a>.</p>
-	</p>
-	<section class="product">
-		<ul>
-			<li>
-				
-				<p class="product1">
+	<div class="wrapper">
+		<header class="clear">
+			<h1>Today's Deals</h1>
+			<input id="cartShow" type="button" name="cartShow" value="My Cart">
+			<p>Every day. Shop our Deal of the Day, Lightning Deals and more daily deals and limited-time sales. See deals you're Watching <a href="#">here</a>.</p>
+		</header>
+		<section id="productList">
+			<ul class="products clear">
+				<li>
 					<img src="./img/macbook-pro.gif">
-					<input type="button" name="add" value="Add to Cart" class="add">
-				</p>
-
-			</li>
-			<li>
-				
-				<p class="product1">
-					<img src="./img/macbook-air.gif">
-					<input type="button" name="add" value="Add to Cart" class="add">
-				</p>
-
-			</li>
-			<li>
-				
-				<p class="product1">
+					<div class="cost clear">
+						<span class="price">$ 2,499.00</span>
+						<input class="quantity" type="text" name="qty" value="QTY1">
+					</div>
+					<p class="desc">15-inch MacBook Pro with Retina display</p>
+					<input class="add" type="button" name="add" value="Add to Cart">
+				</li>
+				<li>
+					<img src="./img/macbook-air.gif"">
+					<div class="cost clear">
+						<span class="price">$ 1,099.00</span>
+						<input class="quantity" type="text" name="qty" value="QTY1">
+					</div>
+					<p class="desc">11-inch MacBook Air 256 GB Storage </p>
+					<input class="add" type="button" name="add" value="Add to Cart">
+				</li>
+				<li>
 					<img src="./img/imac-retina.gif">
-					<input type="button" name="add" value="Add to Cart" class="add">
-				</p>
-
-			</li>
-			<li>
-				
-				<p class="product1">
+					<div class="cost clear">
+						<span class="price">$ 1,499.00</span>
+						<input class="quantity" type="text" name="qty" value="QTY1">
+					</div>
+					<p class="desc">21.5-inch iMac with Retina 4K display</p>
+					<input class="add" type="button" name="add" value="Add to Cart">
+				</li>
+				<li>
 					<img src="./img/ipad-pro.gif">
-					<input type="button" name="add" value="Add to Cart" class="add">
-				</p>
-
-			</li>
-			<li>
-				
-				<p class="product1">
+					<div class="cost clear">
+						<span class="price">$ 799.00</span>
+						<input class="quantity" type="text" name="qty" value="QTY1">
+					</div>
+					<p class="desc">12.9-inch iPad Pro silver, 32GB</p>
+					<input class="add" type="button" name="add" value="Add to Cart">
+				</li>
+				<li>
 					<img src="./img/iphone6s.gif">
-					<input type="button" name="add" value="Add to Cart" class="add">
-				</p>
-
-			</li>
-			<li>
-				
-				<p class="product1">
+					<div class="cost clear">
+						<span class="price">$ 849.00</span>
+						<input class="quantity" type="text" name="qty" value="QTY1">
+					</div>
+					<p class="desc">iphone 6s space gray, 128GB, SIM-free</p>
+					<input class="add" type="button" name="add" value="Add to Cart">
+				</li>
+				<li>
 					<img src="./img/ipod-touch.gif">
-					<input type="button" name="add" value="Add to Cart" class="add">
-				</p>
-
-			</li>
-			<li>
-				
-				<p class="product1">
+					<div class="cost clear">
+						<span class="price">$ 399.00</span>
+						<input class="quantity" type="text" name="qty" value="QTY1">
+					</div>
+					<p class="desc">iPod touch A8 chip, space gray, 128GB</p>
+					<input class="add" type="button" name="add" value="Add to Cart">
+				</li>
+				<li>
 					<img src="./img/mac-pro-hero.gif">
-					<input type="button" name="add" value="Add to Cart" class="add">
-				</p>
-
-			</li>
-			<li>
-				
-				<p class="product1">
+					<div class="cost clear">
+						<span class="price">$ 1499.00</span>
+						<input class="quantity" type="text" name="qty" value="QTY1">
+					</div>
+					<p class="desc">6-Core Intel Xeon E5 processor</p>
+					<input class="add" type="button" name="add" value="Add to Cart">
+				</li>
+				<li>
 					<img src="./img/MLLG2.gif">
-					<input type="button" name="add" value="Add to Cart" class="add">
-				</p>
-
-			</li>
-			<li>
-				
-				<p class="product1">
+					<div class="cost clear">
+						<span class="price">$ 299.95</span>
+						<input class="quantity" type="text" name="qty" value="QTY1">
+					</div>
+					<p class="desc">Beats Solo2 Wireless Headphones Rose</p>
+					<input class="add" type="button" name="add" value="Add to Cart">
+				</li>
+				<li>
 					<img src="./img/MLA02.gif">
-					<input type="button" name="add" value="Add to Cart" class="add">
-				</p>
-
-			</li>
-			<li>
-				
-				<p class="product1">
-					<img src="./img/MJ2R2.gif">
-					<input type="button" name="add" value="Add to Cart" class="add">
-				</p>
-
-			</li>
-		</ul>
-	</section>
-	<section class="cart">
-		<ul>
-			<li>
-				<p class="cart1">
-					<img src="./img/macbook-pro.gif">
-					<p class="price">
-					$2,499.00
-					</p>
-					<input type="text" name="quantity1" value="QTY 1" class="quantity1">
-					<p class="desc">15-inch MacBook Pro with Retina display
-					desc: 2.5GHz Processor 
-					512 GB Storage
-					2.5GHz quad-core Intel Core i7
-					Turbo Boost up to 3.7GHz
-					16GB 1600MHz memory
-					512GB PCIe-based flash storage1
-					Intel Iris Pro Graphics
-					AMD Radeon R9 M370X with 2GB GDDR5 memory
-					Built-in battery (9 hours)2
-					Force Touch trackpad</p>
-					<input type="button" name="remove1" value="Remove from Cart" class="remove">
-				</p>
-			</li>
-			<li>
-				<p class="cart1">
-					<img src="./img/imac-retina.gif">
-					<p class="price">
-					$799.00
-					</p>
-					<input type="text" name="quantity1" value="QTY 1" class="quantity1">
-					<p class="desc">12.9-inch iPad Pro silver, 32GB iPad Pro is more than the next generation of iPad — it’s an uncompromising vision of personal computing for the modern world. It puts incredible power that leaps past most portable PCs at your fingertips. It makes even complex work as natural as touching, swiping, or writing with a pencil. And whether you choose the 12.9-inch model or the new 9.7-inch model, iPad Pro is more capable, versatile, and portable than anything that’s come before. In a word, super.
-					price: $799.00</p>
-					<input type="button" name="remove" value="Remove from Cart" class="remove">
-				</p>
-			</li>
-			<li>
-				<p class="cart1">
-					<img src="./img/MLA02.gif">
-					<p class="price">
-					$849.00
-					</p>
-					<input type="text" name="quantity1" value="QTY 1" class="quantity1">
-					<p class="desc">
-					iPhone 6s
-					desc: space gray, 128GB, SIM-free;The next generation of Multi‑Touch.;Smile for the world’s 
-					most popular camera.;A9. The most advanced chip 
-					ever in a smartphone.;A breakthrough design.
-					Pushed even further.</p>
-					<input type="button" name="remove1" value="Remove from Cart" class="remove">
-				</p>
-			</li>
-			<li>
-				<p class="cart1">
-					<img src="./img/iphone6s.gif">
-					<p class="price">
-					$399.00
-					</p>
-					<input type="text" name="quantity1" value="QTY 1" class="quantity1">
-					<p class="desc">iPod touch A8 chip, 8MP iSight camera, space gray, 128GB. iPod touch is the perfect way to carry your music collection in your pocket. With the iTunes Store — the world’s largest music catalog — you can load up your iPod touch with your favorite songs. And thanks to iCloud, everything you purchase through the iTunes Store is automatically available on all your devices for free. To enhance your music experience even more, Apple Music is available on your iPod touch, right in the Music app.</p>
-					<input type="button" name="remove1" value="Remove from Cart" class="remove">
-				</p>
-			</li>
-			<li>
-				<p class="cart1">
-					<img src="./img/ipad-pro.gif">
-					<p class="price">
-					$1,099.00
-					</p>
-					<input type="text" name="quantity1" value="QTY 1" class="quantity1">
-					<p class="desc">11-inch MacBook Air 1.6GHz Processor 
-					256 GB Storage
-					1.6GHz dual-core Intel Core i5 processor
-					Turbo Boost up to 2.7GHz
-					Intel HD Graphics 6000
-					4GB memory
-					256GB PCIe-based flash storage1</p>
-					<input type="button" name="remove1" value="Remove from Cart" class="remove">
-				</p>
-			</li>		
-		</ul>
-		<section class="summary">
-			<ul>
-		 		<li>
-		 			<p class="total">
-					Total: $1,500.00
-					</p>
-		 		</li>
-		 		<li>
-		 			<p class="promo">
-						<input type="text" name="promo" value="Input Promotion Code">
-						<input type="button" name="addpromo" value="Adding Promo Codes">
-					</p>
-		 		</li>
-		 		<li class="submit">
-		 			<p>
-						<input type="button" name="keep" value="Keep Shopping" class="keep">
-						<input type="button" name="checkout" value="Check Out" class="checkout">
-					</p>
-		 		</li>
-		 	</ul>
+					<div class="cost clear">
+						<span class="price">$ 129.00</span>
+						<input class="quantity" type="text" name="qty" value="QTY1">
+					</div>
+					<p class="desc">Magic Trackpad 2 Multi-Touch Bluetooth</p>
+					<input class="add" type="button" name="add" value="Add to Cart">
+				</li>
+			</ul>
 		</section>
-	</section>
+		<section class="shopCart clear">
+			<div class="summary">
+				<span id ="total"></span>
+				<div class="promoCode clear">
+					<input class="promo" type="text" name="promo" placeholder="Input Promotion Code">
+					<input class="addPromo" type="button" name="addPromo" value="Add Promo Code">
+					<div id="promoEx">
+						<span> BIGSALE </span>
+						<!-- 15% off all items of a specific type -->
+						<span> MEMBERSHIP</span>
+					</div>
+				</div>
+				<div class="checkOut clear">
+					<input class="keep" type="button" name="keep" value="Keep Shopping">
+					<input class="check" type="button" name="check" value="Check Out">
+				</div>
+			</div>
+			<div class="cartList">
+				<ul class="inCart">
+					<!-- <li>
+					<img src="./img/macbook-pro.gif">
+					<div class="cost clear">
+						<span class="price">$ 2,499.00</span>
+						<input class="quantity" type="text" name="qty" value="QTY1">
+					</div>
+					<p class="desc">15-inch MacBook Pro with Retina display</p>
+					<input class="remove" type="button" name="remove" value="Remove from Cart">
+				</li>	 -->
+				</ul>
+			</div>
+		</section>
+		
+	</div>
 </body>
 </html>
-
-
