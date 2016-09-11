@@ -8,5 +8,6 @@
 4. The Calculator [Demo](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/calculator/index.html) | [Code](https://github.com/Tingting-Chang/learning-web-components/blob/master/components/calculator/index.html)
 5. Pure JavaScript Shopping Cart [Demo](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/product-list/productList.html) | [Code](https://github.com/Tingting-Chang/learning-web-components/blob/master/components/product-list/productList.html)	
 		
-  
+ 
+Happy Coding =) 
 
