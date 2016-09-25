@@ -13,8 +13,8 @@ Project Assignment 1: Create JavaScript Validation Functions
 
   validator.isEmailAddress = function(input) {
     // console.log(input.indexOf("@"));
-    try {
-      if (!((input.indexOf("@") > 0) && (input.indexOf(".") > 0))) {
+    try { 
+      if (!((input.indexOf("@") > 0) && (input.indexOf(".") > 0) && validator.withoutSymbols(input[input.indexOf("@") + 1]))) {
         throw "It is not a valid email address. A valid email address should consists of three parts: An email address consists of two strings combined by an @ symbol.";
       } else {
         return true;
@@ -25,6 +25,7 @@ Project Assignment 1: Create JavaScript Validation Functions
   };
 
   // console.log(validator.isEmailAddress("tt@gmail.com"));
+  // console.log(validator.isEmailAddress("tt@."));
 
 
   // 2. .isPhoneNumber(input) Checks if the input parameter is a valid phone number for your country.
@@ -80,7 +81,7 @@ Project Assignment 1: Create JavaScript Validation Functions
 
   // 3.withoutSymbols(input) Returns the input parameter text with all symbols removed. Symbols refer to any non-alphanumeric character. A character is considered alphanumeric if it matches one of the following: a—z, A—Z, or 0—9. Ignore whitespace.
   // You can find it on [jsbin](http://jsbin.com/xaqabu/edit?js,console)
-  validator.withoutSymbols = function (input) {
+  // validator.withoutSymbols = function (input) {
     
     function filterSymbol(input, isSymbol) {
       //map function for every element.
@@ -121,6 +122,14 @@ Project Assignment 1: Create JavaScript Validation Functions
     // console.log(noSymbols);
     return noSymbols;
   };
+
+  // validator.withoutSymbols= function (input) {
+  //     if (typeof input !== 'string') {
+  //         return input;
+  //     }
+
+  //     return input.replace(/[^A-Za-z0-9 ]/g, '');
+  // }
 
   // console.log(validator.withoutSymbols("Hi, john.doe@live.com., is that you?/"));
 
@@ -212,23 +221,27 @@ Project Assignment 1: Create JavaScript Validation Functions
 
    //7. .isBeforeToday(input) Checks if the input parameter is a date that comes before today. The input can be either a string or a Date Object. This function relies on one valid date; if one is not found, it should throw a new error.
 
-  validator.isBeforeToday = function (input) {
-    var date = new Date(input);
+  // validator.isBeforeToday = function (input) {
+  //   var date = new Date(input);
 
-     try {
-      if(!(validator.isDate(input))) {
-        throw "Missing one valid date objects.";
-      } else {
-        if (date.getTime() < Date.now()) {
-          return true;  
-        } else {
-          return false;
-        }
-      }
-     } catch (err) {
-        console.log("Following error occurred and handled: " + err);
-     }
-   };
+  //    try {
+  //     if(!(validator.isDate(input))) {
+  //       throw "Missing one valid date objects.";
+  //     } else {
+  //       if (date.getTime() < Date.now()) {
+  //         return true;  
+  //       } else {
+  //         return false;
+  //       }
+  //     }
+  //    } catch (err) {
+  //       console.log("Following error occurred and handled: " + err);
+  //    }
+  //  };
+
+  validator.isBeforeToday = function (input) {
+      return validator.isBeforeDate(input, new Date());
+  }
 
    // test
   // console.log(validator.isBeforeToday("10-10-2016"));  // returns false)
@@ -309,18 +322,20 @@ Project Assignment 1: Create JavaScript Validation Functions
   //11. .lacks(input, words) Checks if the input text parameter does not contain any of the words within the words array. Use the “word” definition used in the above .contains description. The function should be case-insensitive. A function like this could be used for checking blacklisted words.
   validator.lacks = function (input, words) {
     
-    var str = input.toLowerCase().split(" ");
-    // console.log(str);
+    // var str = input.toLowerCase().split(" ");
+    // // console.log(str);
 
-    for (var i = 0; i < words.length; i++) {
-      if (input.indexOf(words[i]) > 0) {
-        if ((input[input.indexOf(words[i]) - 1] === " ") || (input[input.indexOf(words[i]) - words[i].length] === " ")) {
-          // console.log(input[input.indexOf(words[i]) - 1]);
-          return false;
-        }
-      }
-    }
-    return true;
+    // for (var i = 0; i < words.length; i++) {
+    //   if (input.indexOf(words[i]) > 0) {
+    //     if ((input[input.indexOf(words[i]) - 1] === " ") || (input[input.indexOf(words[i]) - words[i].length] === " ")) {
+    //       // console.log(input[input.indexOf(words[i]) - 1]);
+    //       return false;
+    //     }
+    //   }
+    // }
+    // return true;
+
+    return !validator.contains(input, words);
   };
 
   // console.log(validator.lacks("Visiting new places is fun.", ["coconut"]));
