@@ -68,8 +68,6 @@ window.addEventListener('load', function (event) {
 
 				total += item['subTotal'];
 				oTotalPrice.innerHTML = 'Total: $' + total;
-				console.log(total);
-				console.log(list[0]);
 
 
 			oRemoveBtn.onclick = function () {
@@ -88,6 +86,7 @@ window.addEventListener('load', function (event) {
 					}
 				}
 
+			// Update total price when changing the quantity of the items
 			oQuantity.addEventListener('change', function () {
 				if (this.value === "QTY0") {
 					this.parentNode.parentNode.remove();
@@ -102,7 +101,21 @@ window.addEventListener('load', function (event) {
 							console.log(list.length);
 						}
 					}
-
+				}  else {
+					for (var i = 0; i < list.length; i++) {
+						var src = this.parentNode.parentNode.getElementsByTagName('img')[0].src;
+						var q;
+						if (list[i].name === src) {
+							q = this.value.substr(3);
+							if (q > list[i].quantity) {
+								total += (q - list[i].quantity)*list[i].price;
+							} else {
+								total -= (list[i].quantity - q)*list[i].price;
+							}
+							list[i].quantity = q;
+							oTotalPrice.innerHTML = 'Total: $' + total.toFixed(2);
+						}
+					}
 				}
 			}, false);
 
