@@ -2,27 +2,12 @@
 
 ## Project assignment for Introduction to CSS
 
-  Project Assignment 1: Multi-Page Web Site
-
-
-  [Assignment Homepage](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/index.html)
-  
-  [Project Assignment 2: Button Web Component](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/buttons/index.html) | [ Button Web Component Repository](https://github.com/Tingting-Chang/learning-web-components/blob/master/components/buttons/index.html)
-			
+1. Button Web Component [Demo](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/buttons/index.html) | [Code](https://github.com/Tingting-Chang/learning-web-components/blob/master/components/buttons/index.html)
+2. Profiles.ModernDeveloper Sidebar [Demo](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/profile-card/index.html) | [Code](https://github.com/Tingting-Chang/learning-web-components/blob/master/components/profile-card/index.html)
+3. Creating (Many) Forms and Inputs [Demo](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/formGallery.html) | [Code](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/tree/master/components/forms-inputs)       
+4. The Calculator [Demo](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/calculator/index.html) | [Code](https://github.com/Tingting-Chang/learning-web-components/blob/master/components/calculator/index.html)
+5. Pure JavaScript Shopping Cart [Demo](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/product-list/productList.html) | [Code](https://github.com/Tingting-Chang/learning-web-components/blob/master/components/product-list/productList.html)	
 		
-  [Project Assignment 3: Profiles.ModernDeveloper Sidebar](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/profile-card/index.html) | [ Profiles.ModernDeveloper Sidebar Repository](https://github.com/Tingting-Chang/learning-web-components/blob/master/components/profile-card/index.html)
-			
-		
-  [Project Assignment 4: Creating (Many) Forms and Inputs](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/formGallery.html) | [ Creating (Many) Forms and Inputs Repository](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/tree/master/components/forms-inputs)
-			
-		
-  [Project Assignment 5: The Calculator](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/calculator/index.html) | [ The Calculator Repository](https://github.com/Tingting-Chang/learning-web-components/blob/master/components/calculator/index.html)
-			
-		
-		
-  [Project Assignment 6: Product Listing Page](http://htmlpreview.github.com/?https://github.com/Tingting-Chang/learning-web-components/blob/master/components/product-list/productList.html) | [ Product Listing Page Repository](https://github.com/Tingting-Chang/learning-web-components/blob/master/components/product-list/productList.html)
-			
-		
-		
-  
+ 
+Happy Coding =) 
 
